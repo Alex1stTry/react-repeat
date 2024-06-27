@@ -1,0 +1,9 @@
+.Launch{
+    border: 1px solid black;
+    width:30vh;
+    height: 25vw;
+    background: #7b7575;
+}
+.text{
+    text-align: center;
+}

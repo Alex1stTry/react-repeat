@@ -1,11 +1,14 @@
 import React from 'react';
+import {LaunchesComponent} from "./components/Launches/Launches.component";
 
 const App = () => {
     return (
         <div>
-            HELLO
+           <LaunchesComponent/>
         </div>
     );
 };
 
-export default App;
+export {
+    App
+}
