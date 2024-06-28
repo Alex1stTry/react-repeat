@@ -1,11 +1,15 @@
 import React from 'react';
 
+import {CarContainerComponent} from "./components/CarContainer/CarContainer.component";
+
 const App = () => {
     return (
         <div>
-            HELLO
+         <CarContainerComponent/>
         </div>
     );
 };
 
-export default App;
+export {
+    App
+};
