@@ -5,7 +5,7 @@ import {CarContainerComponent} from "./components/CarContainer/CarContainer.comp
 const App = () => {
     return (
         <div>
-         <CarContainerComponent/>
+            <CarContainerComponent/>
         </div>
     );
 };

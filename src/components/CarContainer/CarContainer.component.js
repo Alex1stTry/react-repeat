@@ -9,8 +9,8 @@ const CarContainerComponent = () => {
     const [carUpdate, setCarUpdate] = useState(null)
 
     useEffect(() => {
-        carService.getAll().then(({data})=>setCars(data))
-    }, [trigger,carUpdate]);
+        carService.getAll().then(({data}) => setCars(data))
+    }, [trigger, carUpdate]);
     return (
         <div>
             <CarFormComponent setTrigger={setTrigger} carUpdate={carUpdate} setCarUpdate={setCarUpdate}/>
