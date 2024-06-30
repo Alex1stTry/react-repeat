@@ -5,7 +5,6 @@ import {ErrorPage} from "./pages/ErrorPage";
 import {TodosPage} from "./pages/TodosPage";
 import {AlbumsPage} from "./pages/AlbumsPage";
 import {CommentsPage} from "./pages/CommentsPage";
-import {PureComponent} from "react";
 import {PostsPage} from "./pages/PostsPage";
 
 const router = createBrowserRouter([

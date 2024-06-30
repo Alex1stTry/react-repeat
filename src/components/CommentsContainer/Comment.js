@@ -1,5 +1,6 @@
-import css from './Comments.module.css'
 import {useNavigate} from "react-router-dom";
+
+import css from './Comments.module.css'
 
 const Comment = ({comment}) => {
     const {postId, id, email, name, body} = comment;
@@ -12,7 +13,7 @@ const Comment = ({comment}) => {
             <div>email:{email}</div>
             <div>name:{name}</div>
             <div>body:{body}</div>
-            <button onClick={() => navigate('post', {state: {post_id: postId}})}>getPost</button>
+            <button onClick={() => navigate('post', {state: {postId}})}>getPost</button>
         </div>
     );
 };
