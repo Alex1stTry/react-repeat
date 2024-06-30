@@ -1,5 +1,3 @@
-import {useEffect, useState} from "react";
-import {carService} from "../../services/carService";
 import {CarComponent} from "./Car.component";
 
 const CarsComponent = ({cars,setTrigger,setCarUpdate}) => {
