@@ -1,0 +1,31 @@
+.Episode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+    border: 1px solid black;
+    height: 14vh;
+}
+
+.Episodes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+
+}
+
+.Episode h2 {
+    font-size: 20px;
+}
+.ButtonBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.ButtonBlock button{
+    margin: 0 4px;
+}

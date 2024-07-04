@@ -1,0 +1,23 @@
+.Character{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border: 1px solid black;
+}
+.CharacterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    padding: 10px 0;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Button button{
+    font-size: 26px;
+}
